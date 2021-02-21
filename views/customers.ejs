@@ -1,0 +1,33 @@
+<%- include('header') %>
+
+ <% if(details != null){ %>
+    <table class="table hoverTable">
+        <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Balance</th>
+        </tr>
+    </thead>
+    <tbody>
+      <%  details.forEach(function(item){ %>
+            <tr>
+                <th scope="row"><%= item.id %></th>
+                <td><%= item.name %></td>
+                <td><%= item.email %></td>
+                <td><%= item.balance %></td>
+                <td><a href="/items/<%= item._id %>">Transfer Money</a></td>
+            
+            </tr>
+      <%  }) %>
+    </tbody>
+    </table>
+
+  <%  } %>
+
+
+
+
+
+<%- include('footer') %>
