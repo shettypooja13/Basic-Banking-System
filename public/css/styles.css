@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    background: rgb(66, 83, 241);
+    padding: 0 16px;
+    
+  }
+  .first{
+      margin-top: 100px;
+      margin-left: 50px;
+  }
+  
+  .header {
+    background-color: #0e1111;
+    margin: auto -16px;
+    padding: 16px 32px;
+  }
+  h1,h3{
+      color: white;
+  }
+  
+  .bye-bye{
+      color: aliceblue;
+      width: 500px;
+      margin-top: 180px;
+      margin-left: 300px
+  }
+  .bye-bye h1,p{
+    box-shadow: 0 2px 5px #ccc;
+    padding: 4%;
+  }
+  
+  table{
+     
+      background: #fff;
+      border-radius: 7px;
+      box-shadow: 0 2px 5px #ccc;
+      padding: 10px;
+      width: 240px;
+      margin: 16px;
+      margin-top: 5%;
+      float: left;
+  }
+  .hoverTable tr:hover {
+    background-color:rgb(182, 134, 134)
+    }
+
+    .deliver{
+       
+      background: #fff;
+      border-radius: 7px;
+      box-shadow: 0 2px 5px #ccc;
+      padding: 10px;
+      width: 1200px;
+      margin: 16px;
+      margin-top: 5%;
+      
+    }
+    .form-group{
+     font-size: large;
+    }
+
+    .navbar-brand p{
+        color: #fff;
+        font-family: "McLaren", cursive;
+        font-weight: 200;
+    }
+    button{
+     font-size:large;
+     width: 100px;
+     
+    }
+  
+    #footer{
+      text-align: center;
+      padding: 7% 15% 6%;
+  }
+  .footer-icons{
+    font-size: 1em;
+    color: #000; 
+    display:block;
+    padding: 5% 10%;
+
+}
+.fa-twitter,.fa-facebook-f,.fa-instagram,.fa-envelope{
+    padding: 2% 1.5%;
+}
+.fa-check-circle:hover{
+  color: #ff4c68;
+}
+.fa-bullseye:hover{
+  color: #ff4c68;
+}
+.fa-heart:hover{
+  color: #ff4c68;
+}
+  
+  footer span{
+    color: #ccc;
+  }
